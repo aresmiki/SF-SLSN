@@ -1,4 +1,15 @@
 function [optWQ,recQ,obj,optWQ2,recQ2,obj2,rec,rec2]=min_lplq_optimation(x,np,nlevel,p,q)
+    %  code by Liu He (aremiki@163.com), January 2020
+    %  Used in my PhD research at the University of SouthWest Jiaotong University.
+    %   
+    %
+    %    Algorithm Reference:
+    %    Optimized minimum generalized Lp/Lq deconvolution for recovering repetitive 
+    %    impacts from a vibration mixture, Measurement, vol. 168，
+    %     doi: 10.1016/j.measurement.2020.108329 
+    % optWQ,recQ,obj 优化后的结果
+    % optWQ2,recQ2,obj2 直接滤波的结果
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
 if nargin <= 3
     p=1;q=2;
 end
