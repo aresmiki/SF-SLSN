@@ -1,4 +1,4 @@
-# SF-SLSN
+# SF-SLSN and Optimized SF-SLSN
 Sparse Filtering with Single Layer and Single Node
 
 Optimized Minimum Generalized Lp/Lq Deconvolution (fuction: min_lplq_optimation.m)
